@@ -1,14 +1,14 @@
 /* referenced from w3schools */
 body {
     min-width: 600px;
-    background-color:white; 
+    background-color:white;
     margin: 200px;
     margin-top: 8px;
 }
 
 
 .homeimages {
-    float:left; 
+    float:left;
     padding:5px;
 }
 
@@ -37,8 +37,8 @@ h3.news {
     color: #2E3632;
     margin: auto;
     width: 100%;
-    
-} 
+
+}
 
 /*this is how i did the boxes in home page! I referenced from w3schools*/
 
@@ -55,7 +55,7 @@ h3.news {
     height: auto;
     background-color: #E3FFF1;
     margin-top: 10px;
-    
+
 }
 
 .news-item {
@@ -65,10 +65,10 @@ h3.news {
     height: auto;
     margin: 10px;
     padding: 2%;
-    
+
 }
-        
-/* Contact information section */  
+
+/* Contact information section */
 /* referenced from w3schools */
 table {
     width: 500px; color:#2E3632;
@@ -77,23 +77,23 @@ table {
     padding: 0px;
     text-align: center;
 }
-    
-th, td, tr {
+
+tr {
     text-align: center;
-    height: 70px;
+    height: 50px;
 }
-    
-#ilogo { 
-    width:20%;
+
+#clogo {
+  height: 30px;
+  padding: 5px;
+  width: 30px;
 }
-    
-#flogo { 
-        width:20%;
+
+.contacttable{
+  display: flex;
+  justify-content: center;
 }
-    
-#mlogo { 
-    width:25%;
-}
+
 
 /*digital and traditional images*/
 /* referenced from w3schools */
@@ -101,7 +101,7 @@ a:link {
     text-decoration: none
 }
 
-        
+
 div.thumbs {
     display:inline-block;
 }
@@ -282,6 +282,7 @@ div.traditionalart:hover {
 
 /*footer*/
 /* referenced from w3schools */
+
 footer {
     padding: 1em;
     color: #243F31;
@@ -289,6 +290,5 @@ footer {
     clear: left;
     text-align: center;
     font-family:Palatino Linotype, Book Antiqua, Palatino, serif;
-    margin-top: 400px;
+    margin:10;
 }
-    

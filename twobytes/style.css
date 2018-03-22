@@ -1,0 +1,146 @@
+body {
+  padding-left: 20%;
+  padding-right: 20%;
+  background-image: url('polka.jpg');
+  background-size: auto;
+  background-repeat: repeat;
+  background-color: #ffffb3;
+  color: gray;
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+
+img, #banner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  height: auto;
+  padding: 10px;
+}
+
+
+.nav{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    /* border:1px solid #ccc;
+    border-width: 1px 0; */
+    /* border-radius: 10px; */
+    color: gray;
+    display:inline-block;
+    margin: 5px;
+    padding:10px;
+}
+
+/* unvisited link */
+a:link {
+    color: gray;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: gray;
+}
+
+/* mouse over link */
+a:hover {
+    color: orange;
+}
+
+/* selected link */
+a:active {
+    color: yellow;
+}
+
+div, #border {
+  background-color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: gray;
+  text-align: center;
+}
+
+div {
+    padding: 10px;
+}
+
+footer {
+    border:1px solid #ccc;
+    border-width:1px 0 0 0;
+    list-style:none;
+    margin:10;
+    padding:10px;
+    text-align:center;
+}
+
+table{
+    align-content: center;
+    width: 50%;
+}
+td{
+    text-align: center;
+}
+
+
+#logo{
+    height: 30px;
+    width: 30px;
+}
+.contacttable{
+  display: flex;
+  justify-content: center;
+}
+
+#aboutus {
+    border-radius: 50%;
+    width: 250px;
+    height: 250;
+    border:none;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+}
+
+#gallery {
+  opacity: 1;
+  display: inline;
+    width: 70%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.6;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+font-weight: bold;
+  font-size: 16px;
+  padding: 16px 32px;
+}
