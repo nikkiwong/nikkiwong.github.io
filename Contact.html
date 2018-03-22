@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>My art website</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    </head>
+    <body>
+   
+    <!--referenced from w3schools-->
+        <!--Top of the page cover photo-->
+        <center><img id="cover" src="images/heading2.jpg" alt="cover photo"></center>
+        
+        <header>    <h1>Nikki Siu Hai Illustration</h1> </header>
+        <!--referenced from w3schools-->
+             <!--Navigation bar-->
+   <ul>
+  <li><a href="NSHillustration.html">Home</a></li>
+  <li class="drop">
+    <a href="Gallery.html" class="dropbutton">Gallery</a>
+    <div class="drop-content">
+      <a href="Digital.html">Digital</a>
+      <a href="Traditional.html">Traditional</a>
+      </div></li>
+
+<li><a class="current" href="Contact.html">Contact</a></li>
+<li><a href="About.html">About</a></li>
+</ul>
+
+        <h2>Contact me</h2>
+        <p>For more information about commissions or for general enquiries, feel free to contact me using any of the following: </p>
+        
+       
+        <!--referenced from w3schools-->
+        
+        <center><table>
+            <tr colspan="2"> <th>Contact Information</th>
+            </tr>
+            <tr><td><img id="mlogo" src="http://www.freeiconspng.com/uploads/email-icon-23.png"></td><td>nshillustration@gmail.com</td>
+            </tr>
+            
+            <tr><td><a href="https://www.facebook.com/NSHillustration"><img id="flogo" src="http://corporate.moviestarplanet.com/wp-content/uploads/2013/08/facebook_logo.png"></a></td>
+            <td><a href="https://www.facebook.com/NSHillustration">@NSHillustration</a></td>
+            </tr>
+            <!--referenced from w3schools-->
+            <tr><td><a href="https://www.instagram.com/nshillustration"><img id="ilogo" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQWwyDTQB_x9CElttVeVgtkoeuJrJA37LBe8X6cRdluN7tV_NJousq4Sw"></a></td>
+            <td><a href="https://www.instagram.com/nshillustration">@nshillustration</a></td></tr>
+            
+            </table></center>
+       <!--referenced from w3schools--> 
+        
+<div class="form">
+  <form action="delivered.php">
+<!--don't know how to make php forms so the submit button doesn't actually submit the information! -->      
+      
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname">
+
+    <label for="email">Email:</label>
+    <input type="text" name="email" placeholder="eg. xxxxx@gmail.com">
+
+    <label for="queries">Please select the following related to your query:</label>
+    <select id="queries" name="What's your query about?">
+        <option value="select">--select--</option>
+      <option value="cost and rate">Cost and rate</option>
+      <option value="delivery">Delivery charge</option>
+      <option value="time">Commission art work</option>
+      <option value="medium">Medium used</option>
+      <option value="other">Other</option>
+    </select>
+      <!--referenced from w3schools-->
+    <label for="textquery">How may I help you?</label>
+    <input type="text" name="textquery" placeholder="Please enter query">
+    <input type="submit" value="Submit">
+  </form>
+</div>
+        
+        
+        <footer>Copyright © NSHillustration.com</footer>
+    </body></html>

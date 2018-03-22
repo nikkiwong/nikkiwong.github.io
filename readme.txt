@@ -1,0 +1,14 @@
+Links to my own pages are shown in the gallery and to external webpages are shown in the contacts section, linking to my social media pages.
+The navigation bar is under the header in every page.
+The form can be found in the botton of the contacts section. 
+There is an unlisted table in the About section.
+An embedded video from youtube can be found in the news section of the Home page.
+CSS3: 	the use of Flexboxes to make the column on the Home page
+	the hover over the images in the gallery
+	the animation of the images extending from left to right in the gallery section
+HTML5: 	the use of header element
+	the use of footer element
+The position element was used in the navigation bar. The float element was also used there and in the Home section (on the images in the news section)
+The main block element used was the <div> element. Inline elements can be seen on the gallery page in the Digital art and the traditional art headings. The <i> inline element was used. And on the cover photo for every page the <center> element was used.
+
+I wanted to keep my website simple and easy to navigate, not overloading the visitor with too many detail and information on my website. At the same time I hope to keep their attention by using bright soft colours and keeping the edges of the navbar rounded makes it softer on the eyes in comparison to the hard edges. So I explored the different options available to me and I chose to use the hexidecimal code for colours because there were more choices and allows me to pick exactly what colour and shade I want, unlike typing the name of the colour. I was reading up on responsive design and looked into that for my website. I used the flex box to do my columns and made sure to have a min-width so that when the screen size reduced, website is able to adjust to a certain extent. It took a while to get everything to work because either the images stayed the same while the flexbox was shrinking in size or the image stayed the same or the box would move down to the next line. But then after trial and error I managed to get everything sorted by putting a minimum width on the <body> of the page and then using % instead of pixels for everything else. And instead of having just a plain image block above the two different titles in the gallery section, I wanted to do something fun and interactive so I looked at how to have part of the image hidden and then when the mouse/pointer goes over the image, it will extend out. In the About section for the image I decided to have it made round for a "profile photo" effect.. again keeping it all soft and simple on the eyes. 
