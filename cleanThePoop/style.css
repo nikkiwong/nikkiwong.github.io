@@ -121,4 +121,5 @@ iframe{
 
 #scoreTitle, #container {
   display: none;
+  cursor: url('img/brush.png'), auto;
 }

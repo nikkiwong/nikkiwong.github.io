@@ -3,6 +3,7 @@ body{
 }
 
 button {
+  margin-top: 10px;
   cursor: pointer;
   padding: 10px;
   color: #0099CC; /* Text color */
