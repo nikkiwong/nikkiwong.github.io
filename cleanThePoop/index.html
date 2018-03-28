@@ -10,7 +10,17 @@
 
   <h1>Quick clean up! <span class="score">0</span></h1>
   <br><br>
+  <div id='intro'>
+  <h2>Having a puppy is not easy. </h2><h2>Make sure you clean up all the mess before it piles up!</h2>
+  <br>
   <button onClick="startGame()">Start!</button>
+  </div>
+  <div id="gameover">
+  <h1>GAME OVER</h1>
+  <h2>Your Score is: <span class="finalScore">0</span></h2><br>
+  <button onClick="startGame()">Play Again?</button>
+  </div>
+  <div id='container'>
   <div class="game">
     <div class="tile tile1">
       <div class="poop"></div>
@@ -37,6 +47,7 @@
       <div class="puppy"></div>
     </div>
   </div>
+</div>
 
 <script src="index.js"></script>
 </body>
