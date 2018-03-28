@@ -1,3 +1,13 @@
+button {
+  cursor: pointer;
+  padding: 10px;
+  color: #0099CC; /* Text color */
+  background-color: white; /* Remove background color */
+  border: 2px solid #0099CC; /* Border thickness, line style, and color */
+  border-radius: 5px; /* Adds curve to border corners */
+  text-transform: uppercase; /* Make letters uppercase */
+}
+
 html {
   box-sizing: border-box;
   font-size: 10px;
@@ -9,6 +19,7 @@ html {
 }
 
 body {
+  text-align: center;
   padding: 0;
   margin:0;
   font-family: 'Amatic SC', cursive;
@@ -16,7 +27,7 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 10rem;
+  font-size: 7rem;
   line-height:1;
   margin-bottom: 0;
 }
