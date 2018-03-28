@@ -6,6 +6,7 @@ const pups = document.querySelectorAll('.puppy');
 const gameover = document.getElementById("gameover");
 const container = document.getElementById("container");
 const intro = document.getElementById("intro");
+const scoreTitle = document.getElementById("scoreTitle");
 
 let timeUp = false;
 let score = 0;
@@ -44,7 +45,9 @@ function startPuppy() {
 }
 
 function resetBoard(){
+  title.style.display='none'
   intro.style.display='none';
+  scoreTitle.style.display='block';
   container.style.display = 'block';
   gameover.style.display = 'none';
   scoreBoard.textContent = 0;
